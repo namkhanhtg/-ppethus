@@ -1,0 +1,12 @@
+.TopContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 300px;
+    background-color: #000000;
+}
+
+.TopContainer-left {
+    display: flex;
+    align-items: center;
+}
