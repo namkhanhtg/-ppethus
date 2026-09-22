@@ -21,6 +21,7 @@ body{
 
 
 .TopcontainerLeft{
+    display: flex;
     align-items: left;
     width: 50%;
     height: 100%;
