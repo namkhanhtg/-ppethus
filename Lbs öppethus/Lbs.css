@@ -19,7 +19,7 @@ body{
     height: 10%;
 }
 
-
+/* cutting into container for easier css*/
 .TopcontainerLeft{
     display: flex;
     align-items: left;
@@ -30,4 +30,14 @@ body{
 .TopcontainerRight{
     width: 50%;
     height: 100%;
+}
+
+
+.menuContainer{
+      overflow: hidden;
+  position: relative;
+}
+
+.menuContainer #menuButton{
+    display: none;
 }
