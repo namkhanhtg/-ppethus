@@ -1,0 +1,43 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #003E6B;
+}
+
+
+
+
+.TopContainer {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    height: 10%;
+}
+
+/* cutting into container for easier css*/
+.TopcontainerLeft{
+    display: flex;
+    align-items: left;
+    width: 50%;
+    height: 100%;
+}
+
+.TopcontainerRight{
+    width: 50%;
+    height: 100%;
+}
+
+
+.menuContainer{
+      overflow: hidden;
+  position: relative;
+}
+
+.menuContainer #menuButton{
+    display: none;
+}
