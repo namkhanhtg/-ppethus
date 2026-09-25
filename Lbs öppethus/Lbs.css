@@ -16,7 +16,7 @@ body{
     display: flex;
     align-items: center;
     background-color: #000000;
-    height: 10%;
+    height: 14%;
 }
 
 /* cutting into container for easier css*/
@@ -28,8 +28,10 @@ body{
 }
 
 .LbsLogo img{
-    width: 90%;
-    height: 100%;
+    padding-top: 5%;
+    padding: 17%;
+    width: 100%;
+    height: 50%;
 }
 
 .TopcontainerRight{
