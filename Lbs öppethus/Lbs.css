@@ -165,6 +165,9 @@ top: 30%;
   display: block;
   height: 50%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .floor2Button{
@@ -174,4 +177,20 @@ top: 30%;
   display: block;
   height: 50%;
   width: 100%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ZoomButton{
+    height: 10%;
+    width: 30%;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 70%;
+top: 90%;
+border-radius: 10%;
 }
