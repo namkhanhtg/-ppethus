@@ -116,3 +116,6 @@ map.addEventListener("pointercancel", function() {
 
     isDragging = false;
 });
+
+const floor1 = document.getElementById("floor1");
+const floor2 = document.getElementById("floor2");
