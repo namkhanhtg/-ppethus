@@ -119,6 +119,7 @@ object-fit: contain;
     justify-content: center; 
     align-items: center;    
     touch-action: none;
+    position: relative;
 }
 
 
@@ -142,4 +143,35 @@ object-fit: contain;
     height: 100%;
     object-fit: contain;
     display: none;
+}
+
+.floorSwitchButton{
+    height: 25%;
+    width: 15%;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+position: absolute;
+left: 85%;
+top: 30%;
+}
+
+.floor1Button{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  height: 50%;
+  width: 100%;
+}
+
+.floor2Button{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  height: 50%;
+  width: 100%;
 }
