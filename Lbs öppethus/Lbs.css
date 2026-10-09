@@ -6,7 +6,7 @@ html, body {
 }
 
 body{
-    background-color: #003E6B;
+    background-color: #002736;
 }
 
 
@@ -15,7 +15,7 @@ body{
 .TopContainer {
     display: flex;
     align-items: center;
-    background-color: #000000;
+    background-color: #002736;
     height: 17%;
 }
 
