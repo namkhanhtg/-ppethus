@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #381404;
+}
+
+
+
+
+.TopContainer {
+    display: flex;
+    align-items: center;
+    background-color: #FF8800;
+    height: 17%;
+}
+
+/* cutting into container for easier css*/
+.TopcontainerLeft{
+    display: flex;
+    align-items: left;
+    width: 50%;
+    height: 100%;
+}
+
+.LbsLogo img{
+    padding: 14% 17%;
+    width: 90%;
+    height: 45%;
+}
+
+.TopcontainerRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+
+.menuContainer{
+
+  position: relative;
+  height: 100%;
+  width: 50%;
+  z-index: 10;
+}
+
+.menuContainer a {
+      color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.menuButton{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 100%
+}
+.menuContainer #navigation{
+    display: none;
+}
+
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    background-color: #FF8800;
+}
+
+.icon img{
+
+    height: 80%;
+    width: 80%;
+object-fit: contain;
+
+}
+
+.menuButton {
+    position: relative;
+}
+
+#navigation {
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    display: none;
+
+    width: clamp(120px, 20vw, 250px);
+
+    background-color: #FF8800;
+    z-index: 20;
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+
+    padding: 3% 6%;
+    font-size: clamp(14px, 1.5vw, 20px);
+    margin-bottom: 10%;
+}
