@@ -119,3 +119,13 @@ map.addEventListener("pointercancel", function() {
 
 const floor1 = document.getElementById("floor1");
 const floor2 = document.getElementById("floor2");
+
+function switchFloor1()
+{
+
+}
+
+function switchFloor2()
+{
+
+}
