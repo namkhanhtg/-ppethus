@@ -44,7 +44,7 @@ body{
 .menuContainer{
 
   position: relative;
-  height: 100%;
+  height: 80%;
   width: 50%;
   z-index: 10;
 }
@@ -57,14 +57,12 @@ body{
   display: block;
 }
 
-.menuButton{
+.NavButton{
     display: flex;
     justify-content: right;
     width: 100%;
-    height: 100%
-}
-.menuContainer #navigation{
-    display: none;
+    height: 100%;
+    align-items: center;
 }
 
 
@@ -90,27 +88,6 @@ object-fit: contain;
     position: relative;
 }
 
-#navigation {
-    position: absolute;
-    top: 100%;
-    right: 0;
-
-    display: none;
-
-    width: clamp(120px, 20vw, 250px);
-
-    background-color: black;
-    z-index: 20;
-}
-
-#navigation a {
-    color: white;
-    text-decoration: none;
-
-    padding: 3% 6%;
-    font-size: clamp(14px, 1.5vw, 20px);
-    margin-bottom: 10%;
-}
 
 .mapContainer{
     width: 100%;
